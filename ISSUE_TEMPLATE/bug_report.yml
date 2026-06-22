@@ -1,0 +1,40 @@
+name: 버그 리포트
+description: 재현 가능한 문제를 제보합니다.
+title: "[FIX]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 문제 내용
+      placeholder: 어떤 문제가 발생했나요?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대 동작
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 실행 환경
+      placeholder: OS, 브라우저, 버전 등
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 로그 또는 스크린샷
+      placeholder: 관련 자료가 있다면 첨부해주세요.

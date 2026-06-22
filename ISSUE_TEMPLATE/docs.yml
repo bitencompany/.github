@@ -1,0 +1,24 @@
+name: 문서
+description: 문서 추가 또는 수정을 요청합니다.
+title: "[DOCS]: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: target
+    attributes:
+      label: 문서 대상
+      placeholder: 어떤 문서를 수정하거나 추가하나요?
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: 변경 내용
+      placeholder: 어떤 내용이 필요하나요?
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: 참고
+      placeholder: 관련 링크나 자료가 있다면 적어주세요.
