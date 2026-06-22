@@ -1,7 +1,6 @@
 name: 작업
 description: 구현, 설정, 유지보수 작업을 등록합니다.
 title: "[CHORE]: "
-labels: ["task"]
 body:
   - type: textarea
     id: summary

@@ -1,7 +1,6 @@
 name: 버그 리포트
 description: 재현 가능한 문제를 제보합니다.
 title: "[FIX]: "
-labels: ["bug"]
 body:
   - type: textarea
     id: summary
